@@ -1,0 +1,129 @@
+﻿@charset "utf-8";
+/* css document */
+
+* {
+    margin:0;
+    padding:0;
+    outline:0;
+}
+
+/*document-reset*/
+body {
+
+}
+a {
+    text-decoration: none;
+    border: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table, img {
+    border: none;
+}
+
+.hidden {
+    position:absolute;
+    left:-9000px;
+    top:0;
+}
+.clear {
+    clear:both;
+}
+.float-right {
+    float: right;
+}
+.float-left {
+    float: left;
+}
+a:active {
+    outline: none;
+}
+a:focus {
+    -moz-outline-style: none;
+}
+a:visited {
+    border: 0;
+}
+#nav a img{
+    border: none;
+}
+
+/*navigation-default
+
+#nav {
+    display: block;
+    list-style: none;
+}
+#nav li{
+    display: inline;
+    margin: 0 3px;
+}
+
+#nav a{
+    text-decoration: none;
+}
+*/
+/*font-reset*/
+
+h1 {
+    font-size:2.0em;
+}
+h2 {
+    font-size:1.8em;
+}
+h3 {
+    font-size:1.6em;
+}
+h4 {
+    font-size:1.5em;
+}
+h5 {
+    font-size:1.4em;
+}
+h6 {
+    font-size:1.3em;
+}
+
+h1,h2,h3,h4,h5,h6,ul,ol,li{
+    margin-bottom:0.5em;
+}
+
+hr {
+    height:1px;
+    line-height:1px;
+    color:#666366;
+    background:#666366;
+    border:none;
+}
+
+/*CONTENT RESET*/
+
+.content {
+
+}
+
+.content p, .content ul{
+    line-height:1.3em;
+    margin-bottom:1em;
+}
+
+.maincol ul,
+.maincol ol,
+.content ul ul,
+.content ol ol,
+.content ul ol,
+.content ol ul {
+    margin-left:30px;
+}
+
+.content table {
+	border-collapse: collapse;
+}
+
+.content td {
+	padding:5px;
+}
+
